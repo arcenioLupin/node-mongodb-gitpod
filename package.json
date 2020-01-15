@@ -1,0 +1,28 @@
+{
+  "name": "node-mongodb-gitpod",
+  "version": "1.0.0",
+  "description": "Proyecto en la nube con gitpod,github,mongodb editado",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcenioLupin/node-mongodb-gitpod.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arcenioLupin/node-mongodb-gitpod/issues"
+  },
+  "homepage": "https://github.com/arcenioLupin/node-mongodb-gitpod#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
