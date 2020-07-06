@@ -30,7 +30,8 @@ app.post('/loginUser', async (req,res) =>{
     const password = req.body.password;
     const usuarios = await Usuario.find({"usuario":usuario,"password":password});
     console.log('avc -usuarios:',usuarios)
-    res.render('index',{usuarios});
+    //res.render('index',{usuarios});
+     res.render('RegistroDatosAdicionales',{usuarios});
 })
 
 //Crear tarea
