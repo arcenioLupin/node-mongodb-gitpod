@@ -34,6 +34,10 @@ app.post('/loginUser', async (req,res) =>{
      res.render('RegistroDatosAdicionales',{usuarios});
 })
 
+app.get('/registroUsuario', async (req,res) =>{
+    res.render('RegistroUsuario');
+})
+
 //Crear tarea
    app.post('/create', async (req,res)=>{
      const newTask =  new Task({
